@@ -5,6 +5,7 @@
 	#include "zoomjoystrong.h"
 
 	int yyerror(const char* err);
+	//int yylex();
 %}
 
 %union{

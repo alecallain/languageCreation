@@ -70,8 +70,9 @@
 	#include "zoomjoystrong.h"
 
 	int yyerror(const char* err);
+	//int yylex();
 
-#line 75 "zoomjoystrong.tab.c" /* yacc.c:339  */
+#line 76 "zoomjoystrong.tab.c" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -123,11 +124,11 @@ extern int yydebug;
 
 union YYSTYPE
 {
-#line 10 "zoomjoystrong.y" /* yacc.c:355  */
+#line 11 "zoomjoystrong.y" /* yacc.c:355  */
 
 
 
-#line 131 "zoomjoystrong.tab.c" /* yacc.c:355  */
+#line 132 "zoomjoystrong.tab.c" /* yacc.c:355  */
 };
 
 typedef union YYSTYPE YYSTYPE;
@@ -144,7 +145,7 @@ int yyparse (void);
 
 /* Copy the second part of user declarations.  */
 
-#line 148 "zoomjoystrong.tab.c" /* yacc.c:358  */
+#line 149 "zoomjoystrong.tab.c" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -442,13 +443,13 @@ static const yytype_uint8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    26,    26,    29,    29,    32,    32,    32,    32,    32,
-      35,    36,    37,    38,    39,    40,    41,    42,    43,    44,
-      45,    46,    47,    48,    49,    50,    53,    54,    55,    56,
-      59,    60,    61,    62,    63,    64,    65,    66,    69,    70,
-      71,    72,    73,    74,    75,    76,    77,    78,    79,    80,
-      81,    82,    83,    84,    87,    88,    89,    90,    91,    92,
-      93,    94
+       0,    27,    27,    30,    30,    33,    33,    33,    33,    33,
+      36,    37,    38,    39,    40,    41,    42,    43,    44,    45,
+      46,    47,    48,    49,    50,    51,    54,    55,    56,    57,
+      60,    61,    62,    63,    64,    65,    66,    67,    70,    71,
+      72,    73,    74,    75,    76,    77,    78,    79,    80,    81,
+      82,    83,    84,    85,    88,    89,    90,    91,    92,    93,
+      94,    95
 };
 #endif
 
@@ -1310,7 +1311,7 @@ yyreduce:
   switch (yyn)
     {
       
-#line 1314 "zoomjoystrong.tab.c" /* yacc.c:1648  */
+#line 1315 "zoomjoystrong.tab.c" /* yacc.c:1648  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1538,7 +1539,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 96 "zoomjoystrong.y" /* yacc.c:1907  */
+#line 97 "zoomjoystrong.y" /* yacc.c:1907  */
 
 
 /**
