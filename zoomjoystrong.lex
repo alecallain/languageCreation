@@ -8,13 +8,13 @@
 
 %%
 
-END			return END;
+END|end			return END;
 ;			return END_STATEMENT;
-POINT			return POINT;
-LINE			return LINE;
-CIRCLE			return CIRCLE;
-RECTANGLE 		return RECTANGLE;
-SET_COLOR		return SET_COLOR;
+POINT|point		return POINT;
+LINE|line		return LINE;
+CIRCLE|circle		return CIRCLE;
+RECTANGLE|rectangle 	return RECTANGLE;
+SET_COLOR|set_color	return SET_COLOR;
 [0-9]+			return INT;
 [0-9]+"."[0.9]+		return FLOAT;
 [ |\t|\n]+		;
